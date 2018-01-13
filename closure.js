@@ -1,6 +1,6 @@
 function parent() {
   var innerVariable = "Go to your room!";
-  console.log(inaccessible)
+  console.log()
   return function child() {
     var inaccessible = "**sneaks out the bedroom window**";
     return innerVariable;
